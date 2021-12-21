@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <title>Insurance Quate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Insurance Quate</h1>
+    <button>
+        <a href="index.html">
+            <h3>Back to Home</h3>
+        </a>
+    </button> 
+    
+    <br><br>
+
+
+    <a href="#" class="insurance personal">PERSONAL INSURANCE</a> 
+    <a href="family_quate.html" class="insurance ">FAMILY INSURANCE</a> 
+    <a href="group_quate.html" class="insurance">GROUP INSURANCE</a>
+    
+    <br> <br>
+
+    <table class="patient_form">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="images/personal.jpg" alt="personal Photo">
+                </td>
+
+                <td style="padding-left: 50px;">
+                    <h2>Insurance quote form</h2>
+
+                    <form action="#">
+                        <label class="lable_color" for="rate">Your monthly rate?</label> <br>
+                        <input type="range" id="rate">
+                        
+                        <br> <br>
+
+                        <label class="lable_color">Do you smoke?</label> <br>
+                        <label for="no">No</label>
+                        <input type="radio" id="no" name="smoke"> 
+
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="yes" name="smoke"> 
+
+                        <br> <br>
+
+                        <label for="age" class="lable_color">Your age?</label> <br>
+                        <select name="age" id="age" required>
+                            <option value="18_25">18-25 Years</option>
+                            <option value="26-35">26-35 Years</option>
+                            <option value="36-45">36-45 Years</option>
+                            <option value="46-55">46-55 Years</option>
+                            <option value="56-65">56-65 Years</option>
+                            <option value="66_years+">66 Years and more</option>
+                        </select>
+
+                         <br> <br>
+
+                         <label for="name" class="lable_color">Your name</label> <br>
+                         <input type="text" id="name" placeholder="your name" required="">
+
+                         <br> <br>
+
+                         <label for="phone" class="lable_color">phone</label> <br>
+                         <input type="tel" id="phone" placeholder="Phone number" required=""> 
+
+                         <br> <br>
+
+                         <textarea cols="30" rows="10" placeholder="message..."></textarea>
+
+                         <br> <br>
+
+                         <button type="submit" style="color: aquamarine; background-color: rgb(172, 115, 151); border: none; border-radius: 30px; padding: 0 35px;">
+                            <b>
+                                <h3>Submit</h3>
+                            </b>
+                        </button>
+                         <label class="external">This CSS is done using <b>EXTERNAL CSS</b>.</label>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

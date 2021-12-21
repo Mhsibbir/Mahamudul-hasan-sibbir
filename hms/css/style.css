@@ -1,0 +1,73 @@
+/* Home page -- index.html */
+body {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+table.home_table {
+	margin-left: 25px;
+}
+
+.home_row td {
+	padding-right: 25px;
+}
+
+.home_row button {
+	width: 200px;
+}
+
+.home_row button a{
+	text-decoration: none;
+	/* color: ; */
+}
+/* Home page -- index.html Ends*/
+
+
+
+
+
+
+
+/*Insurance Quate*/
+.insurance {
+	font-style: none;
+	font-size: 25px;
+	padding-left: 20px;
+	color: gray;
+}
+
+.personal {
+	color: green;
+}
+
+table.patient_form {
+	font-size: 20px;
+}
+
+table .lable_color {
+	color: green;
+}
+
+table button.personal_button {
+	background: green;
+	font-size: 20px;
+	color: white;
+}
+
+table label.external {
+	font-size: 15px;
+}
+
+table label b {
+	color: green;
+}
+/*Insurance Quate Ends*/
+
+
+/*Patient Queue*/
+thead.thead {
+	color: green;
+	font-size: 25px;
+}
+/*Patient Queue Ends*/

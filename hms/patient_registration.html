@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <title>SD Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Patient Registration</h1>
+    <marquee behavior="" direction="left">
+        <h3>Welcome to SD Hospital</h3>
+    </marquee>
+
+    <button>
+        <a href="index.html">
+            <h3>Back to Home</h3>
+        </a>
+    </button> 
+    
+    <br><br>
+
+
+    <form action="#">
+        <table>
+            <tbody>
+                <tr class="home_row">
+                    <td>
+                        <label for="uID">Uniqe ID*</label> 
+                        <input type="number" id="uID" required> 
+                        
+                        <br><br>
+                
+                        <label for="fname">First Name*</label>
+                        <input type="text" id="fname" required placeholder="Your First Name"> 
+                
+                        <br><br>
+                
+                        <label for="lname">Last Name*</label>
+                        <input type="text" id="lname" required placeholder="Your Last Name">
+                
+                        <br><br>
+                
+                        <label for="bdate">Birth Date</label>
+                        <input type="date" id="bdate">  
+                        
+                        <br> <br>
+                        <label for="age">Age*</label>
+                        <input type="number" id="age" placeholder="Your Age">
+                    </td>
+
+                    <td>
+                        
+                        <label for="address">Address*</label>
+                        <input type="text" id="address" required placeholder="Your Address">
+
+                        <br> <br>
+
+                        <label for="city">City</label>
+                        <input type="text" id="city" placeholder="Your City">
+
+                        <br> <br>
+
+                        <label for="phone1">Phone No1*</label>
+                        <input type="tel" id="phone1" required placeholder="Your Phone Number">
+
+                        <br> <br>
+
+                        <label for="phone2">Phone No2</label>
+                        <input type="tel" id="phone2" placeholder="Your Phone Number">
+                    </td>
+
+                    <td>
+                        <br>
+
+                        <img src="images/200x200.jfif" alt="Add Your Photo" width="150px" height="150px">
+
+                        <br>
+
+                        <label for="photo">Photo</label>
+                        <input type="file"> <br>
+                    </td>
+                </tr>
+
+                <tr class="home_row">
+
+                    <td>                       
+                        <label for="gender">Gender</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="other" name="gender">
+                        <label for="other">Other</label>
+                        
+                        <br> <br>
+                
+                        <label for="blood">Blood Group</label> <br>
+                        <input type="radio" id="a+" name="group">
+                        <label for="a+">A+</label>
+                        <input type="radio" id="a-" name="group"> 
+                        <label for="a-">A-</label>
+                        <input type="radio" id="b+" name="group">
+                        <label for="b+">B+</label>
+                        <input type="radio" id="b-" name="group"> 
+                        <label for="b-">B-</label> <br>
+                        <input type="radio" id="o+" name="group">
+                        <label for="o+">O+</label>
+                        <input type="radio" id="o-" name="group">
+                        <label for="o-">O-</label> 
+                        <input type="radio" id="ab+" name="group">
+                        <label for="ab+">AB+</label>
+                        <input type="radio" id="ab-" name="group">
+                        <label for="ab-">AB-</label> <br>
+                    </td>
+
+                    <td></td>
+                    
+
+                    <td>
+                        <input type="checkbox" id="check" required> 
+                        <label for="check"> By clicking here, you confrim that <br> above given information is valid*</label>
+                    </td>
+                </tr>
+
+                <tr class="home_row">
+                    <td></td>
+                    <td></td>
+                    
+                    <td>
+                        <button type="submit" style="color: aquamarine; background-color: rgb(172, 115, 151); border: none; border-radius: 30px; padding: 0 25px;">
+                            <b>
+                                <h3>Save the record</h3>
+                            </b>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+    
+</body>
+</html>

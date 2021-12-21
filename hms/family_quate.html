@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+    <title>Insurance Quate</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Insurance Quate</h1>
+    <button>
+        <a href="index.html">
+            <h3>Back to Home</h3>
+        </a>
+    </button> 
+    
+    <br><br>
+
+    <p style="font-size: 20px">You can get a insurance by filling the form as your requried</p>
+    <br>
+
+    <a href="insurance_quate.html" class="insurance">PERSONAL INSURANCE</a> 
+    <a href="#" class="insurance personal">FAMILY INSURANCE</a> 
+    <a href="group_quate.html" class="insurance">GROUP INSURANCE</a>
+    
+    <br> <br>
+
+    <table class="patient_form">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="images/family.jpg" alt="Family Photo">
+                </td>
+
+                <td style="padding-left: 50px;">
+                    <h2>Insurance quote form</h2>
+
+                    <form action="#">
+                        <label class="lable_color" for="rate">Your monthly rate?</label> <br>
+                        <select id="rate">
+                            <option value="100$">100$</option>
+                            <option value="200$">200$</option>
+                            <option value="300$">300$</option>
+                            <option value="400$">400$</option>
+                            <option value="500$">500$ and more</option>
+                        </select>
+                        
+                        <br> <br>
+
+                        <label class="lable_color" for="member">How many family members you have?</label> <br>
+                        <select id="rate">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5 and more</option>
+                        </select>
+                        
+                        <br> <br>
+
+                        <label for="age" class="lable_color">Your age?</label> <br>
+                        <select name="age" id="age" required>
+                            <option value="18_25">18-25 Years</option>
+                            <option value="18_25">26-35 Years</option>
+                            <option value="18_25">36-45 Years</option>
+                            <option value="18_25">46-55 Years</option>
+                            <option value="18_25">56-65 Years</option>
+                            <option value="18_25">65 Years and more</option>
+                        </select>
+
+                         <br> <br>
+
+                         <label for="name" class="lable_color">Your name</label> <br>
+                         <input type="text" id="name" placeholder="your name" required="">
+
+                         <br> <br>
+
+                         <label for="phone" class="lable_color">phone</label> <br>
+                         <input type="tel" id="phone" placeholder="Phone number" required=""> 
+
+                         <br> <br>
+
+                         <textarea cols="30" rows="10" placeholder="message..."></textarea>
+
+                         <br> <br>
+
+                         <button type="submit" style="color: aquamarine; background-color: rgb(172, 115, 151); border: none; border-radius: 30px; padding: 0 35px;">
+                            <b>
+                                <h3>Submit</h3>
+                            </b>
+                        </button>
+                         <label>In this page i have used my previous css code.</label>
+                    </form>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
